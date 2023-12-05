@@ -1,11 +1,11 @@
-import Greeting from './components/Greeting';
 import Header from './components/Header';
+import MainContainer from '@/app/components/MainContainer';
 
 export default function Home() {
   return (
     <div>
       <Header />
-      <Greeting />
+      <MainContainer />
     </div>
   );
 }
