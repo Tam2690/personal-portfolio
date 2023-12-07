@@ -23,17 +23,7 @@ const Greeting = () => (
         </Button>
       </Col>
       <Col xxl={9}>
-        <Avatar
-          src={<Image src="/avatar.png" alt="avatar" preview={false} />}
-          size={{
-            xs: 24,
-            sm: 32,
-            md: 40,
-            lg: 64,
-            xl: 80,
-            xxl: 300,
-          }}
-        />
+        <Image src="/avatar.png" alt="avatar" preview={false} />
       </Col>
     </Row>
   </GreetingStyled>
